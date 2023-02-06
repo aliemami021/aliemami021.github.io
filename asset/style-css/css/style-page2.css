@@ -1,0 +1,329 @@
+/* ----------------whole header start---------------- */
+.header {
+    position: relative;
+    padding: 225px 0;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url("../../Images/cover3.png");
+    background-position: center center;
+    background-size: cover;
+    filter: grayscale(.2);
+}
+
+
+.header::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #2c2c2c95;
+    z-index: -1;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+/* header top-menu */
+
+.top-menu {
+    font-family: b-2;
+    font-size: 13px;
+    background-color: #2c2c2c80;
+    color: var(--Corporate-white);
+}
+
+/* top-menu general-info */
+.general-info {
+    padding: 15px 0;
+}
+
+/* top-menu general-info social-logos */
+.social-logos i {
+    font-size: 15px;
+    padding-right: 20px;
+    transition: .3s;
+}
+
+/* hover */
+.social-logos i:hover {
+    transform: scaleY(1.5) scaleX(1.2);
+    color: var(--Corporate-green);
+}
+
+.social-logos i:nth-child(2) {
+    font-size: 14px;
+    font-weight: 100;
+}
+
+/* top-menu general-info info */
+.info li {
+    margin-left: 50px;
+}
+
+.info li i {
+    color: var(--Corporate-green);
+    font-size: 12px;
+    padding: 5px 10px;
+    font-weight: 600;
+    transition: .4s;
+}
+
+.info li i:hover {
+    transform: scale(1.5);
+}
+
+/* header navigation */
+.navigation {
+    position: static;
+    top: 54px;
+    width: 100%;
+    /* margin: auto; */
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(40, 174, 96, 0.5);
+    font-family: b-2;
+    text-transform: capitalize;
+}
+
+/* navigation l-nav */
+.l-nav a {
+    height: 40px;
+}
+
+/* navigation m-nav */
+.m-nav>ul>li>a {
+    font-family: b-2;
+    font-size: 15px;
+    text-transform: capitalize;
+    margin: 0 5px;
+    padding: 20px 10px;
+    color: var(--Corporate-white);
+    transition: .3s;
+}
+
+.m-nav li i {
+    transition: .6s;
+}
+
+/* hover */
+.m-nav>ul>li>a:hover {
+    color: var(--Corporate-green);
+}
+
+.m-nav ul li a:hover i {
+    color: var(--Corporate-white);
+    transform: rotate(-360deg) translateY(2px);
+}
+
+/* drop item */
+.m-nav li.drop-item .sub-menu {
+    top: 60px;
+    height: auto;
+    width: 230px;
+    color: #1f1f1f;
+    background-color: #fff;
+    transition: .3s;
+    display: none;
+}
+
+.m-nav .drop-item .sub {
+    padding: 10px 20px 20px;
+    transition: .5s;
+}
+
+.m-nav .drop-item .sub-menu .sub:hover {
+    transform: scale(1.03);
+    font-family: b-1;
+}
+
+/* hover */
+.m-nav li.drop-item:hover .sub-menu {
+    opacity: 1;
+    display: block;
+}
+
+/* navigation r-nav */
+.r-nav i {
+    margin-right: 10px;
+    color: var(--Corporate-white);
+}
+
+/* des on header image */
+.des-on-h-image {
+    transform: translate(0, 100%);
+    text-transform: capitalize;
+}
+
+.header-des {
+    color: var(--Corporate-white);
+}
+
+
+.header-des h3 {
+    font-family: b-1;
+    font-size: 44px;
+    line-height: 54px;
+}
+
+/* -----------------whole header end----------------- */
+
+/* --------------------main start-------------------- */
+
+/* ---------map start--------- */
+.main-content {
+    padding: 150px 0;
+}
+
+.map {
+    width: 100%;
+    height: 500px;
+    border: .5px solid #2C2C2C;
+}
+
+/* ----------map end---------- */
+/* ------contactus start------ */
+.contact-us .title {
+    text-transform: capitalize;
+    font-family: b-3;
+    margin-bottom: 20px;
+}
+
+.contact-us .title h2{
+    margin: 0 0 40px;
+    font-size: 30px;
+}
+
+.content {
+    vertical-align: top;
+}
+
+/* ---------form start--------- */
+.forms {
+    width: 65%;
+    margin: 0 0 150px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 50px);
+    gap: 30px;
+    text-transform: capitalize;
+}
+
+.text-area {
+    width: 100%;
+    grid-column: 1/-1;
+    grid-row: 1/4;
+    text-transform: capitalize;
+}
+
+textarea {
+    border: 1px solid #e5e6e9;
+    padding: 10px;
+    text-transform: capitalize;
+    color: #454545;
+
+}
+
+.your-name {
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+
+.your-email {
+    grid-column: 2/-1;
+    grid-row: 4/5;
+}
+
+.enter-subject {
+    grid-column: 1/-1;
+    grid-row: 5/6;
+}
+
+.button {
+    grid-column: 1/2;
+}
+
+input {
+    border: 1px solid #e5e6e9;
+    padding: 20px;
+    color: #454545;
+}
+
+::placeholder {
+    text-transform: capitalize;
+}
+
+.forms .button {
+    margin-top: 10px;
+}
+
+.forms button {
+    cursor: pointer;
+    text-transform: uppercase;
+    padding: 20px 44px;
+    letter-spacing: 2px;
+    border-radius: 1px;
+    background-color: #fff;
+}
+.forms button:hover {
+    background-color: var(--Corporate-green);
+    color: #fff;
+}
+
+/* ----------form end---------- */
+/* -------contactus end------- */
+
+
+/* ---------media start--------- */
+.media {
+    width: 25%;
+}
+
+.media .contents {
+    margin-left: 10px;
+}
+
+.media .icon {
+    padding-right: 20px;
+}
+
+.media .des {
+    margin-bottom: 35px;
+}
+
+.media .contents i {
+    font-size: 28px;
+    color: #8f9195;
+}
+
+.media .content {
+    vertical-align: top;
+    text-transform: capitalize;
+}
+
+.media .contents h3 {
+    font-family: b-2;
+    font-size: 16px;
+    color: #2a2a2a;
+    margin: 0;
+}
+
+.media .contents p {
+    font-family: b-1;
+    font-size: 16px;
+    color: #8a8a8a;
+    margin: 0;
+}
+
+.media .contents address {
+    font-family: b-1;
+    font-size: 16px;
+    color: #8a8a8a;
+    font-style: normal;
+    margin: 0;
+}
+
+/* ----------media end---------- */
+
+/* ---------------------main end--------------------- */

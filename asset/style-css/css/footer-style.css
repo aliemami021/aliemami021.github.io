@@ -1,0 +1,126 @@
+
+/* -------------------footer start------------------- */
+.site-footer {
+    padding: 120px 0 100px;
+    background-color: var(--header-footer-color);
+    text-transform: capitalize;
+}
+
+.site-footer .contents {
+    vertical-align: top;
+    gap: 15px;
+}
+
+.site-footer .content {
+    padding: 0 20px;
+}
+
+.site-footer .content a {
+    display: block;
+}
+
+/* ----text hover---- */
+.site-footer .content li {
+    transition: .4s;
+}
+
+.site-footer .content li {
+    transition: .4s;
+}
+
+.site-footer .content a:hover li {
+    color: var(--Corporate-green);
+}
+
+.site-footer li,
+.site-footer p,
+.site-footer i {
+    color: #C7C7C7;
+}
+
+.site-footer h3 {
+    font-family: b-2;
+    font-size: 22px;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.site-footer li {
+    font-family: b-1;
+    font-size: 14px;
+    line-height: 42px;
+}
+
+.site-footer p {
+    font-family: b-1;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.site-footer .col-1 p {
+    padding-bottom: 40px;
+}
+
+.site-footer .footer-logo {
+    margin-bottom: 40px;
+}
+
+/* ------boxes------ */
+.site-footer .col-1 {
+    max-width: 33.33333%;
+    flex: 0 0 33.33333%;
+}
+
+.site-footer .col-2 {
+    margin-left: 8.333333%;
+}
+
+.site-footer .col-3 {
+    max-width: 16.666667%;
+    flex: 0 0 16.6666667%;
+}
+
+.site-footer .col-4 {
+    max-width: 25%;
+    flex: 0 0 25%;
+}
+
+/* -----icons----- */
+.site-footer .col-1 ul li {
+    width: 40px;
+    height: 40px;
+    background-color: #454545;
+    border-radius: 50%;
+    font-size: 18px;
+    transition: .6s;
+}
+
+.site-footer .col-1 a:nth-child(2) {
+    margin: 0 10px;
+}
+
+.site-footer .col-1 a:hover li {
+    background-color: var(--Corporate-green);
+}
+
+/* ---copyright--- */
+
+.copyright {
+    padding: 30px 0 30px;
+    background-color: var(--ending-color);
+}
+
+.copyright .content {
+    color: #C7C7C7;
+    font-family: b-1;
+    font-size: 14px;
+}
+
+.copyright i {
+    color: #28AE60;
+}
+
+.copyright a {
+    color: #28AE60;
+}
+/* --------------------footer end-------------------- */

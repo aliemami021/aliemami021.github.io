@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>busicol project</title>
+    <!-- cdn font awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <!-- font style -->
+    <link rel="stylesheet" href="asset/style-css/font-styles/fonts.css">
+    <!-- native svgs -->
+    <link rel="stylesheet" href="asset/fontawesome-free-6.2.1-desktop/svgs">
+    <!-- index style -->
+    <link rel="stylesheet" href="asset/style-css/css/style.css">
+    <!-- mobile style -->
+    <link rel="stylesheet" href="asset/style-css/css/style-mob.css">
+    <!-- footer in common -->
+    <link rel="stylesheet" href="asset/style-css/css/footer-style.css">
+    <!-- general commands -->
+    <link rel="stylesheet" href="asset/style-css/css/general-commands.css">
+    <!-- responsive in common -->
+    <link rel="stylesheet" href="asset/style-css/css/responsive.css">
+
+</head>
+
+<body>
+
+    <div class="entire-site">
+
+        <!-- header -->
+        <header>
+            <div class="top-menu">
+                <div class="general-info d-flex justify-space-between container">
+                    <div class="social-logos">
+                        <a href="#">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-google-plus-g"></i>
+                        </a>
+                    </div>
+                    <div class="info">
+                        <ul class="d-flex">
+                            <li>
+                                <a href="#" class="d-flex align-center">
+                                    <i class="fa fa-envelope"></i>
+                                    info@docmed.com
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="d-flex align-center">
+                                    <i class="fa fa-phone"></i>
+                                    1601-609 6780
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="navigation d-flex align-center justify-space-between container">
+                <div class="l-nav d-flex align-start justify-center">
+                    <a href="index.html">
+                        <img src="asset/Images/logo-slogan-2.webp" style="display: block;" alt="site logo">
+                    </a>
+                </div>
+                <div class="m-nav d-flex align-center ">
+                    <ul class="d-flex">
+                        <li>
+                            <a href="#">home</a>
+                        </li>
+                        <li>
+                            <a href="#">about</a>
+                        </li>
+                        <li>
+                            <a href="#">services</a>
+                        </li>
+                        <li class="drop-item pos-relative">
+                            <a href="#">
+                                blog
+                                <i class="fas fa-angle-down"></i>
+                            </a>
+                            <ul class="sub-menu pos-absolute-on opaciti-0">
+                                <li class="sub d-flex flex-dir-col justify-center align-start ">
+                                    <a href="#">blog</a>
+                                </li>
+                                <li class="sub d-flex flex-dir-col justify-center align-start">
+                                    <a href="#">single-blog</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="drop-item pos-relative">
+                            <a href="#">
+                                pages
+                                <i class="fas fa-angle-down"></i>
+                            </a>
+                            <ul class="sub-menu pos-absolute-on opaciti-0">
+                                <li class="sub d-flex flex-dir-col justify-center align-start">
+                                    <a href="#">elements</a>
+                                </li>
+                                <li class="sub d-flex flex-dir-col justify-center align-start">
+                                    <a href="#">portfolio</a>
+                                </li>
+                                <li class="sub d-flex flex-dir-col justify-center align-start">
+                                    <a href="#">portfolio-detail</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="other-pages/contact-us.html">contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="r-nav d-flex align-center justify-center">
+                    <div class="search">
+                        <a href="#">
+                            <i class="ti-search"></i>
+                        </a>
+                    </div>
+                    <div class="nav-button">
+                        <a href="#">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </a>
+                        <a href="#" class="btn btn-green">get a quote</a>
+                    </div>
+                </div>
+            </div>
+            <!-- mobile menu for responsive 0 and 991px -->
+            <div class="mobile-navigation container" style="display: none;">
+                <a href="index.html">
+                    <img src="asset/Images/logo-slogan-2.webp" style="display: inline-block;" alt="site logo">
+                </a>
+                <div class="click-menu d-flex align-center justify-end">
+                    <a href="#" class="d-flex align-center">
+                        <span>menu</span>
+                        <span class="d-flex align-center"><i class="fa-solid fa-bars"></i></span>
+                    </a>
+                    <div class="drop-menu-base">
+                        <div class="drop-menu">
+                            <ul class="mobile-drop-list d-flex justify-start flex-dir-col">
+                                <li>
+                                    <a href="#">home</a>
+                                </li>
+                                <li>
+                                    <a href="#">about</a>
+                                </li>
+                                <li>
+                                    <a href="#">services</a>
+                                </li>
+                                <li class="drop-item pos-relative">
+                                    <a href="#">
+                                        blog
+                                        <i class="fas fa-angle-down"></i>
+                                    </a>
+                                    <ul class="sub-menu pos-absolute-on opaciti-0">
+                                        <li class="sub d-flex flex-dir-col justify-center align-start ">
+                                            <a href="#">blog</a>
+                                        </li>
+                                        <li class="sub d-flex flex-dir-col justify-center align-start">
+                                            <a href="#">single-blog</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="drop-item pos-relative">
+                                    <a href="#">
+                                        pages
+                                        <i class="fas fa-angle-down"></i>
+                                    </a>
+                                    <ul class="sub-menu pos-absolute-on opaciti-0">
+                                        <li class="sub d-flex flex-dir-col justify-center align-start">
+                                            <a href="#">elements</a>
+                                        </li>
+                                        <li class="sub d-flex flex-dir-col justify-center align-start">
+                                            <a href="#">portfolio</a>
+                                        </li>
+                                        <li class="sub d-flex flex-dir-col justify-center align-start">
+                                            <a href="#">portfolio-detail</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="other-pages/contact-us.html">contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="des-on-h-image container">
+                <div class="header-des">
+                    <h3> Grow Big with
+                        Musicol Business</h3>
+                    <p>Nam libero tempore, cum soluta nobis est eligendi optio
+                        cumque nihil impedit quo minus.</p>
+                    <div class="button-service">
+                        <a href="#" class="btn btn-green">Our Services</a>
+                        <a href="#" class="btn btn-transparent">
+                            <i class="fa fa-play"></i>
+                            See How it Works
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- end header -->
+
+        <!-- main site -->
+        <main>
+            <!-- firt content - our services -->
+            <div class="our-services container d-flex flex-dir-col">
+                <div class="services-topic m-auto">
+                    <h3>explore our solution</h3>
+                </div>
+
+                <div class="cards width-100 container d-flex">
+                    <div class="card">
+                        <div class="first contents pos-relative">
+                            <div class="on-image pos-absolute-on">
+                                <div class="content">
+                                    <img src="asset/Images/svg1.svg" alt="logo">
+                                    <h3>invoicing</h3>
+                                </div>
+                            </div>
+                            <div class="on-hover d-flex flex-dir-col pos-absolute-on">
+                                <div class="content">
+                                    <h3>invoicing</h3>
+                                    <p>These cases are perfectly simple and easy to distinguish. In a free hour power.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="second contents pos-relative">
+                            <div class="on-image pos-absolute-on">
+                                <div class="content">
+                                    <img src="asset/Images/svg2.svg" alt="logo">
+                                    <h3>business growth</h3>
+                                </div>
+                            </div>
+                            <div class="on-hover d-flex flex-dir-col pos-absolute-on">
+                                <div class="content">
+                                    <h3>business growth</h3>
+                                    <p>These cases are perfectly simple and easy to distinguish. In a free hour power.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="third contents pos-relative">
+                            <div class="on-image pos-absolute-on">
+                                <div class="content">
+                                    <img src="asset/Images/svg3.svg" alt="logo">
+                                    <h3>problem solving</h3>
+                                </div>
+                            </div>
+                            <div class="on-hover d-flex flex-dir-col pos-absolute-on">
+                                <div class="content">
+                                    <h3>problem solving</h3>
+                                    <p>These cases are perfectly simple and easy to distinguish. In a free hour power.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- section about business -->
+            <section class="about-business">
+
+                <div class="contents d-flex align-center wrap">
+                    <!-- left -->
+                    <div class="about-inner">
+                        <div class="image">
+                            <img src="asset/Images/4.webp" alt="#">
+                        </div>
+                    </div>
+                    <!-- right -->
+                    <div class="about-content">
+                        <div class="description">
+
+                            <h3>The Largest Business Expert</h3>
+                            <p>
+                                These cases are perfectly simple and easy to distinguish. In a free hour,
+                                when our power of choice is untrammelled and when nothing prevents
+                                our being able to do what we like best.
+                            </p>
+                            <ul>
+                                <li>
+                                    Apartments frequently or motionless.
+                                </li>
+                                <li>
+                                    Duis aute irure dolor in reprehenderit in voluptate.
+                                </li>
+                                <li>
+                                    Voluptatem quia voluptas sit aspernatur.
+                                </li>
+                            </ul>
+
+                            <div class="about-btn">
+                                <a class="btn btn-green" href="#">
+                                    About Us
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- count area -->
+            <div class="count-area">
+                <div class="count-contents container">
+                    <div class="boxes width-100 d-flex align-center justify-space-between text-center">
+
+                        <div class="content width-100">
+                            <div class="box">
+                                <h3>
+                                    <span class="count">520</span>
+                                    <span class="eleman">+</span>
+                                </h3>
+                                <span>Total Projects</span>
+                            </div>
+                        </div>
+
+                        <div class="content width-100">
+                            <div class="box">
+                                <h3>
+                                    <span class="count">244</span>
+                                    <span class="eleman"></span>
+                                </h3>
+                                <span>On Going Projects</span>
+                            </div>
+                        </div>
+
+                        <div class="content width-100">
+                            <div class="box">
+                                <h3>
+                                    <span class="count">95</span>
+                                    <span class="eleman">%</span>
+                                </h3>
+                                <span>On Going Projects</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- gallery area -->
+            <section class="gallery-area">
+
+                <div class="container">
+                    <div class="title text-center">
+                        <h3>Our Recent Works</h3>
+                        <p>
+                            These cases are perfectly simple and easy to distinguish. In a free
+                            hour, when our power of choice is untrammelled.
+                        </p>
+                    </div>
+
+                    <div class="boxes">
+                        <div class="box box1">
+                            <div class="contents pos-relative">
+                                <div class="image">
+                                    <img src="asset/Images/5.webp" alt="">
+                                </div>
+
+                                <div
+                                    class="on-hover pos-absolute-on d-flex flex-dir-col align-center justify-center text-center">
+                                    <a href="#">
+                                        <h3>Product Branding</h3>
+                                        <span>Branding</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box box2">
+                            <div class="contents pos-relative">
+                                <div class="image">
+                                    <img src="asset/Images/6.webp" alt="">
+                                </div>
+
+                                <div
+                                    class="on-hover pos-absolute-on d-flex flex-dir-col align-center justify-center text-center">
+                                    <a href="#">
+                                        <h3>Product Branding</h3>
+                                        <span>Branding</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box box3">
+                            <div class="contents pos-relative">
+                                <div class="image">
+                                    <img src="asset/Images/7.webp" alt="">
+                                </div>
+
+                                <div
+                                    class="on-hover pos-absolute-on d-flex flex-dir-col align-center justify-center text-center">
+                                    <a href="#">
+                                        <h3>Product Branding</h3>
+                                        <span>Branding</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box box4">
+                            <div class="contents pos-relative">
+                                <div class="image">
+                                    <img src="asset/Images/8.webp" alt="">
+                                </div>
+
+                                <div
+                                    class="on-hover pos-absolute-on d-flex flex-dir-col align-center justify-center text-center">
+                                    <a href="#">
+                                        <h3>Product Branding</h3>
+                                        <span>Branding</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box box5">
+                            <div class="contents pos-relative ">
+                                <div class="image">
+                                    <img src="asset/Images/9.webp" alt="">
+                                </div>
+
+                                <div class="on-hover pos-absolute-on ">
+                                    <a href="#"
+                                        class="pos-absolute-on d-flex flex-dir-col align-center justify-center text-center">
+                                        <h3>Product Branding</h3>
+                                        <span>Branding</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="button width-100 text-center">
+                        <a href="" class="btn">
+                            more works
+                        </a>
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- short-term plans -->
+            <div class="shot-term-plans">
+
+                <div class="contents container">
+                    <div class="cards width-100 d-flex align-center justify-center">
+
+                        <div class="card">
+                            <div class="content d-flex flex-dir-col justify-center">
+                                <div class="des-on-image text-center">
+                                    <img src="asset/Images/svg4.svg" alt="control" width="60px">
+                                    <h3>Unlimited Control</h3>
+                                    <p>These cases are perfectly simple and easy to </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="content d-flex flex-dir-col justify-center">
+                                <div class="des-on-image text-center">
+                                    <img src="asset/Images/svg5.svg" alt="control" width="60px">
+                                    <h3>Rapidly Growth</h3>
+                                    <p>These cases are perfectly simple and easy to </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="content d-flex flex-dir-col justify-center">
+                                <div class="des-on-image text-center">
+                                    <img src="asset/Images/svg6.svg" alt="control" width="60px">
+                                    <h3>Problem Solving</h3>
+                                    <p>These cases are perfectly simple and easy to </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- section grow with us -->
+            <section class="growing-with-us">
+                <div class="contents container d-flex align-center wrap">
+                    <!-- left -->
+                    <div class="growing-content">
+                        <div class="description">
+
+                            <h3>
+                                Gives you the best Financial
+                                solution for business
+                            </h3>
+                            <p>These cases are perfectly simple and easy to distinguish. In a free hour, when our power
+                                of choice is untrammelled and when nothing prevents our being able to do what we like
+                                best.</p>
+                            <div class="slide-btn d-flex justify-space-between">
+                                <div class="left-arrow d-flex flex-dir-col align-end">
+                                    <a class="btn-transparent d-flex align-center justify-center" href="#">
+                                        <i class="fas fa-angle-left"></i>
+                                    </a>
+                                </div>
+                                <div class="right-arrow d-flex flex-dir-col align-start">
+                                    <a class="btn-transparent d-flex align-center justify-center" href="#">
+                                        <i class="fas fa-angle-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- right -->
+                    <div class="about-inner">
+                        <div class="image">
+                            <img src="asset/Images/11.webp" alt="#">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- section introduction -->
+            <section class="introduction">
+                <div class="contents container">
+                    <div class="persons d-flex justify-space-between">
+                        <div class="face">
+                            <img src="asset/Images/12.webp" alt="#">
+                        </div>
+                        <div class="face">
+                            <img src="asset/Images/12.webp" alt="#">
+                        </div>
+                        <div class="face">
+                            <img src="asset/Images/12.webp" alt="#">
+                        </div>
+                    </div>
+
+                    <div class="explanation">
+                        <div class="content text-center">
+                            <p>These cases are perfectly simple and easy to distinguish. In a free hour, when our power
+                                of choice is untrammelled and when nothing prevents our being able.
+                            </p>
+                            <div class="person-intro text-center">
+                                <h4>Robert Jonson</h4>
+                                <span> Business Owner</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <div class="your-project">
+                <div class="contects container">
+                    <div class="content text-center">
+                        <h3>Do you Have any Project?</h3>
+                        <p>
+                            Nam libero tempore, cum soluta nobis est eligendi optio
+                            cumque nihil impedit quo minus.
+                        </p>
+                        <a href="#" class="btn">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+        <!-- end main site -->
+
+        <!-- footer -->
+        <footer>
+
+            <div class="site-footer">
+                <div class="contents container d-flex justify-space-between wrap">
+                    <div class="col col-1">
+                        <div class="footer-logo">
+                            <a href="#">
+                                <img src="asset/Images/logo-slogan.webp" alt="site logo">
+                            </a>
+                        </div>
+                        <p>
+                            Firmament morning sixth subdue darkness
+                            creeping gathered divide.
+                        </p>
+                        <ul class="d-flex">
+                            <a href="#">
+                                <li class="d-flex align-center justify-center">
+                                    <i class="fab fa-facebook-f"></i>
+                                </li>
+                            </a>
+                            <a href="#">
+                                <li class="d-flex align-center justify-center">
+                                    <i class="fab fa-twitter"></i>
+                                </li>
+                            </a>
+                            <a href="#">
+                                <li class="d-flex align-center justify-center">
+                                    <i class="fab fa-instagram"></i>
+                                </li>
+                            </a>
+                        </ul>
+                    </div>
+                    <div class="col col-2">
+                        <div class="content">
+                            <h3>services</h3>
+                            <a href="#">
+                                <li>
+                                    design
+                                </li>
+                            </a>
+                            <a href="#">
+                                <li>
+                                    development
+                                </li>
+                            </a>
+                            <a href="#">
+                                <li>
+                                    Marketing
+                                </li>
+                            </a>
+                            <a href="#">
+                                <li>
+                                    Consulting
+                                </li>
+                            </a>
+                            <a href="#">
+                                <li>
+                                    Finance
+                                </li>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col col-3">
+                        <div class="content">
+                            <h3>useful links</h3>
+                            <a href="#">
+                                <li>
+                                    About
+                                </li>
+                            </a>
+                            <a href="#">
+                                <li>
+                                    Blog
+                                </li>
+                            </a>
+                            <a href="#">
+                                <li>
+                                    Contact
+                                </li>
+                            </a>
+                            <a href="#">
+                                <li>
+                                    Free Quote
+                                </li>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col col4-">
+                        <div class="content">
+                            <h3>address</h3>
+                            <li>
+                                200, D-block, Green lane USA
+                            </li>
+                            <li>
+                                +10 367 467 8934
+                            </li>
+                            <a href="#">
+                                <li>
+                                    docmed@contact.com
+                                </li>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <div class="content container">
+                    <p class="text-center">
+                        Copyright ©2023 All rights reserved | This template is made with <i class="fa fa-heart"></i> by
+                        <a href="#">Colorlib</a>
+                    </p>
+                </div>
+            </div>
+        </footer>
+        <!-- end footer -->
+
+    </div>
+
+</body>
+
+</html>
